@@ -988,14 +988,13 @@
       grid-template-areas: "planes__gestionderedes planes__restyling";
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding-bottom: 50px;
+  padding: 15px;
 }
 
 .planes h2 {
   font-family: font2;
   font-weight: bold;
   color: #d677ba;
-  text-align: center;
 }
 
 .planes .planes__gestionderedes {
