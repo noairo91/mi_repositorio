@@ -632,19 +632,7 @@
           align-items: center;
 }
 
-@media screen and (max-width: 580px) {
-  .quienessomos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media screen and (min-width: 580px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .quienessomos {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -658,14 +646,30 @@
 
 .quienessomos .quienessomos__img img {
   width: 500px;
-  height: 500px;
-  padding: 50px;
+  height: 400px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 580px) {
+  .quienessomos .quienessomos__img img {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width: 768px) {
+  .quienessomos .quienessomos__img img {
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+  }
 }
 
 .quienessomos .quienessomos__texto p {
   font-family: font2;
   font-size: 20px;
-  font-weight: 10pxpx;
+  font-weight: 200;
   color: blueviolet;
   width: 300px;
   height: 300px;
